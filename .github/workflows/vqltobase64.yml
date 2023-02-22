@@ -27,6 +27,6 @@ jobs:
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
-      - name: code to convertvqltobase64
+      - name: converting the vql file file to base64 
         run: base64 inputfile.vql | tr -d '\n\r' | tee newoutputfile.vql
           
